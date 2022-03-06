@@ -1,0 +1,18 @@
+with max_price as (
+  SELECT 
+    MAX(price) as max_price 
+  FROM 
+    printer as printer
+) 
+SELECT 
+  model as model, 
+  price as price 
+FROM 
+  printer as printer 
+WHERE 
+  price in (
+    select 
+      * 
+    from 
+      max_price as max_price
+  )
