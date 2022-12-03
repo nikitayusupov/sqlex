@@ -1,3 +1,3 @@
 # sqlex
 
-Решение некоторых задач с сайта https://www.sql-ex.ru/
+Решение некоторых задач по SQL с сайта https://www.sql-ex.ru/
